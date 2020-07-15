@@ -1,0 +1,54 @@
+/* The General style starts here */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #222; }
+
+li {
+  list-style: none; }
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+@font-face {
+  font-family: "Ruhl";
+  src: url("../../fonts/FrankRuhlLibre-Regular.ttf"); }
+
+@font-face {
+  font-family: "Ruhl Medium";
+  src: url("../../fonts/FrankRuhlLibre-Medium.ttf"); }
+
+@font-face {
+  font-family: "GreatVibes";
+  src: url("../../fonts/GreatVibes-Regular.ttf"); }
+
+.header {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1); }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 5rem;
+  min-height: 10vh; }
+
+.nav__logo {
+  font-family: "GreatVibes", "Poppins";
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0; }
+
+.nav__list {
+  display: flex; }
+
+.nav__items {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  font-family: "Ruhl Medium", "sans-serif"; }
