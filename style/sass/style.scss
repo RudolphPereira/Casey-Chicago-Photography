@@ -23,21 +23,6 @@ li {
   align-items: center;
 }
 
-@font-face {
-  font-family: "Ruhl";
-  src: url("../../fonts/FrankRuhlLibre-Regular.ttf");
-}
-
-@font-face {
-  font-family: "Ruhl Medium";
-  src: url("../../fonts/FrankRuhlLibre-Medium.ttf");
-}
-
-@font-face {
-  font-family: "GreatVibes";
-  src: url("../../fonts/GreatVibes-Regular.ttf");
-}
-
 @import "modules/animations";
 @import "modules/nav.scss";
 @import "modules/hero.scss";
