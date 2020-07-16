@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  animation: opening 1s ease-in;
 }
 
 a {
@@ -37,5 +38,6 @@ li {
   src: url("../../fonts/GreatVibes-Regular.ttf");
 }
 
+@import "modules/animations";
 @import "modules/nav.scss";
 @import "modules/hero.scss";
