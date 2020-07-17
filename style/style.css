@@ -1,4 +1,7 @@
 /* The General style starts here */
+html {
+  scroll-behavior: smooth; }
+
 body {
   padding: 0;
   margin: 0;
@@ -97,7 +100,7 @@ li {
     object-fit: cover; }
   .hero__plant {
     position: absolute;
-    left: -20%;
+    left: -15%;
     bottom: 0;
     z-index: -1;
     transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
@@ -106,3 +109,44 @@ li {
     max-height: 80%; }
   .hero__plant2 {
     left: 40%; }
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap; }
+  .about__image--container {
+    width: 40%;
+    position: relative; }
+  .about__image--title {
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem; }
+  .about__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .about__text--container {
+    width: 60%;
+    background-color: #414141;
+    color: white; }
+  .about__text--title {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5rem;
+    padding: 1rem 0 0 0;
+    font-weight: 400; }
+  .about__list--container {
+    padding: 0 5rem; }
+  .about__list--title {
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    padding: 0.5rem 0; }
+  .about__list--desc {
+    width: 90%;
+    line-height: 1.5;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 300; }

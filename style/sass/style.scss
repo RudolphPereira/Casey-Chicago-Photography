@@ -1,5 +1,9 @@
 /* The General style starts here */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -24,5 +28,6 @@ li {
 }
 
 @import "modules/animations";
-@import "modules/nav.scss";
-@import "modules/hero.scss";
+@import "modules/nav";
+@import "modules/hero";
+@import "modules/about";
