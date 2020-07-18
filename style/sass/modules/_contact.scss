@@ -1,0 +1,70 @@
+.contact {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__text--container {
+    width: 60%;
+    height: 100%;
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 0 2rem;
+  }
+
+  & span {
+    font-size: 4.5rem;
+    color: #906272;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family: "Frank Ruhl Libre", serif;
+  }
+
+  &__input {
+    padding: 0.5rem 1rem;
+    background-color: #414141;
+    border: none;
+    color: white;
+  }
+
+  &__button {
+    font-family: "Frank Ruhl Libre", serif;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    background-color: #906272;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  &__image--container {
+    width: 40%;
+    height: 100%;
+    background-color: yellowgreen;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
