@@ -259,7 +259,8 @@ li {
     padding: 0.5rem 1rem;
     background-color: #414141;
     border: none;
-    color: white; }
+    color: white;
+    border-radius: 0; }
   .contact__button {
     font-family: "Frank Ruhl Libre", serif;
     padding: 0.5rem 1rem;
