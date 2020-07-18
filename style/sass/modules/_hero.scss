@@ -1,13 +1,22 @@
 .hero {
+  height: 90vh;
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  height: 90vh;
+  @include ipad {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
 
   &__text--content {
     width: 60%;
     text-align: center;
     padding: 7rem 0;
+    @include ipad {
+      width: 100%;
+      padding: 3rem 0;
+    }
   }
 
   &__title {
@@ -18,7 +27,7 @@
   }
 
   &__desc {
-    width: 60%;
+    width: 70%;
     font-size: 1.1rem;
     line-height: 1.5;
     margin: 1rem auto 2rem auto;
@@ -38,6 +47,9 @@
     background-color: #dad7dc;
     position: relative;
     z-index: 1;
+    @include ipad {
+      width: 100%;
+    }
   }
 
   &__image {

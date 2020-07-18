@@ -19,14 +19,9 @@ a {
 li {
   list-style: none;
 }
+/* The General style ends here */
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+@import "modules/mixins";
 @import "modules/animations";
 @import "modules/nav";
 @import "modules/hero";

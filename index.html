@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- The header section starts here -->
+    <header class="header" id="home">
       <nav class="nav">
-        <h1 class="nav__logo">Casey Chicago</h1>
+        <h1 class="nav__logo"><a href="#home">Casey Chicago</a></h1>
 
         <ul class="nav__list">
           <li class="nav__items">
@@ -28,7 +29,9 @@
         </ul>
       </nav>
     </header>
+    <!-- The header section ends here -->
 
+    <!-- The hero section starts here -->
     <section class="hero">
       <div class="hero__text--content">
         <h2 class="hero__title">
@@ -62,7 +65,9 @@
         />
       </div>
     </section>
+    <!-- The hero section ends here -->
 
+    <!--The about section starts here -->
     <section class="about" id="about">
       <div class="about__image--container">
         <h2 class="about__image--title">MINIMAL</h2>
@@ -109,7 +114,9 @@
         </div>
       </div>
     </section>
+    <!--The about section ends here -->
 
+    <!-- The gallary section starts here -->
     <section class="gallary" id="work">
       <img
         src="./img/gallery-1.jpg"
@@ -132,7 +139,9 @@
         class="gallary__4 gallary__image"
       />
     </section>
+    <!-- The gallary section ends here -->
 
+    <!-- The contact section starts here -->
     <section class="contact" id="contact">
       <div class="contact__text--container">
         <div class="contact__text">
@@ -140,10 +149,19 @@
             Get in <br />
             <span>touch.</span>
           </h1>
-          <form action="" class="contact__form">
+          <form
+            action="https://formspree.io/mjvapzqk"
+            method="POST"
+            class="contact__form"
+          >
             <label for="email" class="contact__label">Your email</label>
-            <input type="email" class="contact__input" required />
-            <input type="submit" class="contact__button" />
+            <input
+              type="email"
+              name="_replyto"
+              class="contact__input"
+              required
+            />
+            <button class="contact__button" value="Send">Submit</button>
           </form>
         </div>
       </div>
@@ -156,7 +174,9 @@
         />
       </div>
     </section>
+    <!-- The contact section ends here -->
 
+    <!-- The footer section starts here -->
     <footer class="footer">
       <h2 class="footer__title">Casey Chicago &copy; 2020</h2>
 
@@ -177,5 +197,6 @@
         </li>
       </ul>
     </footer>
+    <!-- The footer section ends here -->
   </body>
 </html>

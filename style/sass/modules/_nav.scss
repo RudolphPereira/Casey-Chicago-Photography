@@ -1,16 +1,20 @@
 .header {
-  height: 10vh;
   z-index: 2;
   position: relative;
 }
 
 .nav {
+  height: 10vh;
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.3rem 5rem;
+  padding: 0.5rem 5rem;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  @include iphone {
+    flex-direction: column;
+    padding: 2.5rem 5rem;
+  }
 
   &__logo {
     font-family: "Great Vibes", cursive;
@@ -21,6 +25,7 @@
 
   &__list {
     display: flex;
+    align-items: center;
   }
 
   &__items {

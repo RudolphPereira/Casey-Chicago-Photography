@@ -6,17 +6,28 @@
   align-items: center;
   padding: 0 5rem;
   overflow: hidden;
+  @include iphone {
+    padding: 0 1rem;
+    height: 15vh;
+    flex-direction: column;
+  }
 
   &__title {
     font-size: 1.2rem;
     font-family: "Frank Ruhl Libre", serif;
     font-weight: 500;
     color: white;
+    @include iphone {
+      margin-bottom: 0;
+    }
   }
 
   &__list {
     display: flex;
     align-items: center;
+    @include iphone {
+      margin-top: 0;
+    }
   }
   &__items {
     margin-right: 1.8rem;
