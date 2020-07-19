@@ -1,5 +1,5 @@
 .gallary {
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -10,6 +10,8 @@
     @include iphone {
       grid-row: auto;
       grid-column: auto;
+      width: 100%;
+      height: 100%;
     }
   }
 
