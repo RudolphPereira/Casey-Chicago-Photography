@@ -1,5 +1,5 @@
 .footer {
-  min-height: 10vh;
+  height: 10vh;
   background-color: #414141;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,7 @@
     font-weight: 500;
     color: white;
     @include iphone {
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
     }
   }
 
