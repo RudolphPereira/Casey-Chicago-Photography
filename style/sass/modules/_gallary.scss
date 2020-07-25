@@ -1,5 +1,5 @@
 .gallary {
-  min-height: 100vh;
+  height: 150vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   @include iphone {
